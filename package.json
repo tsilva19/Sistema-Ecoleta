@@ -4,6 +4,7 @@
   "description": "Guia Pratico para Iniciantes",
   "main": "src/server.js",
   "scripts": {
+    "start": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/tsilva19/Sistema-Ecoleta/issues"
   },
-  "homepage": "https://github.com/tsilva19/Sistema-Ecoleta#readme"
+  "homepage": "https://github.com/tsilva19/Sistema-Ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.1"
+  }
 }
